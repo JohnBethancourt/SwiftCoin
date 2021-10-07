@@ -15,4 +15,5 @@ let Current = World()
 
 struct World {
   var date = { Date() }
+  var getUUID =  { UUID() }
 }

@@ -23,7 +23,7 @@ protocol Transaction {
 }
 
 struct MessageTransaction: Transaction, Hashable {
-    let id = UUID()
+    let id = Current.getUUID()
     var from: String
     var to: String
     var message: String
@@ -42,7 +42,7 @@ struct MessageTransaction: Transaction, Hashable {
 }
 
 struct MonetaryTransaction: Transaction, Hashable {
-    let id = UUID()
+    let id = Current.getUUID()
     var from: String
     var to: String
     var amount: Double

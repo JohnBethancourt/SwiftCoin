@@ -17,12 +17,10 @@
 		BF8942BD270F92400076E45B /* MemoryPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BB270F92400076E45B /* MemoryPool.swift */; };
 		BF8942BF270F925C0076E45B /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BE270F925C0076E45B /* Transactions.swift */; };
 		BF8942C0270F925C0076E45B /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BE270F925C0076E45B /* Transactions.swift */; };
+		BF8942E5270FAABD0076E45B /* MacSwiftCoinUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942E4270FAABD0076E45B /* MacSwiftCoinUnitTests.swift */; };
+		BF8942FF270FAB240076E45B /* SwiftCoinTestsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942FE270FAB240076E45B /* SwiftCoinTestsIOS.swift */; };
 		BFD58832270AD731003D8FC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58831270AD731003D8FC7 /* Extensions.swift */; };
 		BFD58833270AD731003D8FC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58831270AD731003D8FC7 /* Extensions.swift */; };
-		D26B2BE22709269B008822B8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BE12709269B008822B8 /* Tests_iOS.swift */; };
-		D26B2BE42709269B008822B8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BE32709269B008822B8 /* Tests_iOSLaunchTests.swift */; };
-		D26B2BEE2709269B008822B8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BED2709269B008822B8 /* Tests_macOS.swift */; };
-		D26B2BF02709269B008822B8 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BEF2709269B008822B8 /* Tests_macOSLaunchTests.swift */; };
 		D26B2BF12709269B008822B8 /* SwiftCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BC927092698008822B8 /* SwiftCoinApp.swift */; };
 		D26B2BF22709269B008822B8 /* SwiftCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BC927092698008822B8 /* SwiftCoinApp.swift */; };
 		D26B2BF32709269B008822B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BCA27092698008822B8 /* ContentView.swift */; };
@@ -62,19 +60,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D26B2BDE2709269B008822B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D26B2BC427092697008822B8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D26B2BCF2709269B008822B8;
-			remoteInfo = "SwiftCoin (iOS)";
-		};
-		D26B2BEA2709269B008822B8 /* PBXContainerItemProxy */ = {
+		BF8942E6270FAABD0076E45B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D26B2BC427092697008822B8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D26B2BD52709269B008822B8;
 			remoteInfo = "SwiftCoin (macOS)";
+		};
+		BF894300270FAB240076E45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26B2BC427092697008822B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26B2BCF2709269B008822B8;
+			remoteInfo = "SwiftCoin (iOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,6 +82,10 @@
 		BF8942B8270F91F00076E45B /* BlockchainNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainNode.swift; sourceTree = "<group>"; };
 		BF8942BB270F92400076E45B /* MemoryPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPool.swift; sourceTree = "<group>"; };
 		BF8942BE270F925C0076E45B /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		BF8942E2270FAABD0076E45B /* MacSwiftCoinUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacSwiftCoinUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8942E4270FAABD0076E45B /* MacSwiftCoinUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSwiftCoinUnitTests.swift; sourceTree = "<group>"; };
+		BF8942FC270FAB240076E45B /* SwiftCoinTestsIOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCoinTestsIOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8942FE270FAB240076E45B /* SwiftCoinTestsIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinTestsIOS.swift; sourceTree = "<group>"; };
 		BFD58831270AD731003D8FC7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D26B2BC927092698008822B8 /* SwiftCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinApp.swift; sourceTree = "<group>"; };
 		D26B2BCA27092698008822B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,12 +93,6 @@
 		D26B2BD02709269B008822B8 /* SwiftCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26B2BD62709269B008822B8 /* SwiftCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26B2BD82709269B008822B8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		D26B2BDD2709269B008822B8 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D26B2BE12709269B008822B8 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		D26B2BE32709269B008822B8 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		D26B2BE92709269B008822B8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D26B2BED2709269B008822B8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		D26B2BEF2709269B008822B8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		D26B2C06270960DF008822B8 /* UInt256+FixedWidthInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt256+FixedWidthInteger.swift"; sourceTree = "<group>"; };
 		D26B2C07270960DF008822B8 /* UInt256+arc4random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt256+arc4random.swift"; sourceTree = "<group>"; };
 		D26B2C08270960DF008822B8 /* UInt256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UInt256.swift; sourceTree = "<group>"; };
@@ -116,6 +112,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BF8942DF270FAABD0076E45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8942F9270FAB240076E45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D26B2BCD2709269B008822B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,20 +134,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D26B2BD32709269B008822B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D26B2BDA2709269B008822B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D26B2BE62709269B008822B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -158,13 +154,29 @@
 			path = Blockchain;
 			sourceTree = "<group>";
 		};
+		BF8942E3270FAABD0076E45B /* MacSwiftCoinUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8942E4270FAABD0076E45B /* MacSwiftCoinUnitTests.swift */,
+			);
+			path = MacSwiftCoinUnitTests;
+			sourceTree = "<group>";
+		};
+		BF8942FD270FAB240076E45B /* SwiftCoinTestsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF8942FE270FAB240076E45B /* SwiftCoinTestsIOS.swift */,
+			);
+			path = SwiftCoinTestsIOS;
+			sourceTree = "<group>";
+		};
 		D26B2BC327092697008822B8 = {
 			isa = PBXGroup;
 			children = (
 				D26B2BC827092698008822B8 /* Shared */,
 				D26B2BD72709269B008822B8 /* macOS */,
-				D26B2BE02709269B008822B8 /* Tests iOS */,
-				D26B2BEC2709269B008822B8 /* Tests macOS */,
+				BF8942E3270FAABD0076E45B /* MacSwiftCoinUnitTests */,
+				BF8942FD270FAB240076E45B /* SwiftCoinTestsIOS */,
 				D26B2BD12709269B008822B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,8 +200,8 @@
 			children = (
 				D26B2BD02709269B008822B8 /* SwiftCoin.app */,
 				D26B2BD62709269B008822B8 /* SwiftCoin.app */,
-				D26B2BDD2709269B008822B8 /* Tests iOS.xctest */,
-				D26B2BE92709269B008822B8 /* Tests macOS.xctest */,
+				BF8942E2270FAABD0076E45B /* MacSwiftCoinUnitTests.xctest */,
+				BF8942FC270FAB240076E45B /* SwiftCoinTestsIOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,24 +212,6 @@
 				D26B2BD82709269B008822B8 /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		D26B2BE02709269B008822B8 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D26B2BE12709269B008822B8 /* Tests_iOS.swift */,
-				D26B2BE32709269B008822B8 /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		D26B2BEC2709269B008822B8 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				D26B2BED2709269B008822B8 /* Tests_macOS.swift */,
-				D26B2BEF2709269B008822B8 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 		D26B2C0527096039008822B8 /* UInt256 */ = {
@@ -246,6 +240,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BF8942E1270FAABD0076E45B /* MacSwiftCoinUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8942E8270FAABD0076E45B /* Build configuration list for PBXNativeTarget "MacSwiftCoinUnitTests" */;
+			buildPhases = (
+				BF8942DE270FAABD0076E45B /* Sources */,
+				BF8942DF270FAABD0076E45B /* Frameworks */,
+				BF8942E0270FAABD0076E45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8942E7270FAABD0076E45B /* PBXTargetDependency */,
+			);
+			name = MacSwiftCoinUnitTests;
+			productName = MacSwiftCoinUnitTests;
+			productReference = BF8942E2270FAABD0076E45B /* MacSwiftCoinUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8942FB270FAB240076E45B /* SwiftCoinTestsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF894302270FAB240076E45B /* Build configuration list for PBXNativeTarget "SwiftCoinTestsIOS" */;
+			buildPhases = (
+				BF8942F8270FAB240076E45B /* Sources */,
+				BF8942F9270FAB240076E45B /* Frameworks */,
+				BF8942FA270FAB240076E45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF894301270FAB240076E45B /* PBXTargetDependency */,
+			);
+			name = SwiftCoinTestsIOS;
+			productName = SwiftCoinTestsIOS;
+			productReference = BF8942FC270FAB240076E45B /* SwiftCoinTestsIOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D26B2BCF2709269B008822B8 /* SwiftCoin (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D26B2BF92709269B008822B8 /* Build configuration list for PBXNativeTarget "SwiftCoin (iOS)" */;
@@ -280,42 +310,6 @@
 			productReference = D26B2BD62709269B008822B8 /* SwiftCoin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D26B2BDC2709269B008822B8 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D26B2BFF2709269B008822B8 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				D26B2BD92709269B008822B8 /* Sources */,
-				D26B2BDA2709269B008822B8 /* Frameworks */,
-				D26B2BDB2709269B008822B8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D26B2BDF2709269B008822B8 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = D26B2BDD2709269B008822B8 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		D26B2BE82709269B008822B8 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D26B2C022709269B008822B8 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				D26B2BE52709269B008822B8 /* Sources */,
-				D26B2BE62709269B008822B8 /* Frameworks */,
-				D26B2BE72709269B008822B8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D26B2BEB2709269B008822B8 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = D26B2BE92709269B008822B8 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -326,19 +320,19 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					BF8942E1270FAABD0076E45B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D26B2BD52709269B008822B8;
+					};
+					BF8942FB270FAB240076E45B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D26B2BCF2709269B008822B8;
+					};
 					D26B2BCF2709269B008822B8 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 					D26B2BD52709269B008822B8 = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					D26B2BDC2709269B008822B8 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = D26B2BCF2709269B008822B8;
-					};
-					D26B2BE82709269B008822B8 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = D26B2BD52709269B008822B8;
 					};
 				};
 			};
@@ -357,13 +351,27 @@
 			targets = (
 				D26B2BCF2709269B008822B8 /* SwiftCoin (iOS) */,
 				D26B2BD52709269B008822B8 /* SwiftCoin (macOS) */,
-				D26B2BDC2709269B008822B8 /* Tests iOS */,
-				D26B2BE82709269B008822B8 /* Tests macOS */,
+				BF8942E1270FAABD0076E45B /* MacSwiftCoinUnitTests */,
+				BF8942FB270FAB240076E45B /* SwiftCoinTestsIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BF8942E0270FAABD0076E45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8942FA270FAB240076E45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D26B2BCE2709269B008822B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,23 +388,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D26B2BDB2709269B008822B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D26B2BE72709269B008822B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BF8942DE270FAABD0076E45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8942E5270FAABD0076E45B /* MacSwiftCoinUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8942F8270FAB240076E45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8942FF270FAB240076E45B /* SwiftCoinTestsIOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D26B2BCC2709269B008822B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,40 +467,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D26B2BD92709269B008822B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D26B2BE42709269B008822B8 /* Tests_iOSLaunchTests.swift in Sources */,
-				D26B2BE22709269B008822B8 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D26B2BE52709269B008822B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D26B2BF02709269B008822B8 /* Tests_macOSLaunchTests.swift in Sources */,
-				D26B2BEE2709269B008822B8 /* Tests_macOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D26B2BDF2709269B008822B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D26B2BCF2709269B008822B8 /* SwiftCoin (iOS) */;
-			targetProxy = D26B2BDE2709269B008822B8 /* PBXContainerItemProxy */;
-		};
-		D26B2BEB2709269B008822B8 /* PBXTargetDependency */ = {
+		BF8942E7270FAABD0076E45B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D26B2BD52709269B008822B8 /* SwiftCoin (macOS) */;
-			targetProxy = D26B2BEA2709269B008822B8 /* PBXContainerItemProxy */;
+			targetProxy = BF8942E6270FAABD0076E45B /* PBXContainerItemProxy */;
+		};
+		BF894301270FAB240076E45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26B2BCF2709269B008822B8 /* SwiftCoin (iOS) */;
+			targetProxy = BF894300270FAB240076E45B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BF8942E9270FAABD0076E45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDHYCZZ38B;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synapticedge.MacSwiftCoinUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCoin.app/Contents/MacOS/SwiftCoin";
+			};
+			name = Debug;
+		};
+		BF8942EA270FAABD0076E45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDHYCZZ38B;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synapticedge.MacSwiftCoinUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCoin.app/Contents/MacOS/SwiftCoin";
+			};
+			name = Release;
+		};
+		BF894303270FAB240076E45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDHYCZZ38B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synapticedge.SwiftCoinTestsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCoin.app/SwiftCoin";
+			};
+			name = Debug;
+		};
+		BF894304270FAB240076E45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDHYCZZ38B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synapticedge.SwiftCoinTestsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCoin.app/SwiftCoin";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D26B2BF72709269B008822B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -719,110 +812,27 @@
 			};
 			name = Release;
 		};
-		D26B2C002709269B008822B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDHYCZZ38B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bethancourt.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftCoin (iOS)";
-			};
-			name = Debug;
-		};
-		D26B2C012709269B008822B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDHYCZZ38B;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bethancourt.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftCoin (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D26B2C032709269B008822B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDHYCZZ38B;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bethancourt.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SwiftCoin (macOS)";
-			};
-			name = Debug;
-		};
-		D26B2C042709269B008822B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDHYCZZ38B;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bethancourt.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SwiftCoin (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BF8942E8270FAABD0076E45B /* Build configuration list for PBXNativeTarget "MacSwiftCoinUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8942E9270FAABD0076E45B /* Debug */,
+				BF8942EA270FAABD0076E45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF894302270FAB240076E45B /* Build configuration list for PBXNativeTarget "SwiftCoinTestsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF894303270FAB240076E45B /* Debug */,
+				BF894304270FAB240076E45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D26B2BC727092697008822B8 /* Build configuration list for PBXProject "SwiftCoin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -846,24 +856,6 @@
 			buildConfigurations = (
 				D26B2BFD2709269B008822B8 /* Debug */,
 				D26B2BFE2709269B008822B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D26B2BFF2709269B008822B8 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D26B2C002709269B008822B8 /* Debug */,
-				D26B2C012709269B008822B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D26B2C022709269B008822B8 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D26B2C032709269B008822B8 /* Debug */,
-				D26B2C042709269B008822B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

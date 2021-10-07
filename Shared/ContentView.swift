@@ -8,13 +8,13 @@
 import SwiftUI
 import CryptoKit
 
- 
 struct ContentView: View {
  
     @StateObject var selectedBlockchainNode: BlockchainNode
     @State var colorCount = 1
     @StateObject var simMemoryPool: MemoryPool
-    
+    @State var showingPopover = false
+    @State var transactionContent = ""
     
     init() {
         let memoryPool = MemoryPool()
@@ -64,14 +64,27 @@ struct ContentView: View {
                             
                             VStack(alignment: .leading) {
                                 Text("Timestamp: \(selectedBlockchainNode.blocks[index].timestamp)")
+                            #if os(macOS)
                                 Text("Transactions: \(selectedBlockchainNode.blocks[index].transactions.count)")
                                     .help("\(selectedBlockchainNode.blocks[index].textSummary)")
+                                #else
+                                Button {
+                                    transactionContent = selectedBlockchainNode.blocks[index].textSummary
+                                    showingPopover = true
+                                } label: {
+                                    
+                                    Text("Transactions: \(selectedBlockchainNode.blocks[index].transactions.count)")
+                                }
+                                
+                                #endif
                             }
                             
                             .padding(.leading, 20)
                             
                         }
-                     
+                        .sheet(isPresented: $showingPopover) {
+                            Text(transactionContent)
+                        }
                         .padding()
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
@@ -105,10 +118,6 @@ struct ContentView_Previews: PreviewProvider {
             
     }
 }
- 
-
-
-
  
 //uint256 MAX_INT = 115792089237316195423570985008687907853269984665640564039457584007913129639935
  

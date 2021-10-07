@@ -22,7 +22,7 @@ class MemoryPool: ObservableObject {
         }
     }
     func getTransactions() -> [Transaction] {
-        self.transactions.map { $1 }
+        self.transactions.map { $1 }.sorted { $0.id.uuidString > $1.id.uuidString }
     }
     func join(node: BlockchainNode) {
         self.nodes[node.id] = node
