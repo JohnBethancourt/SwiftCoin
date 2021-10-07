@@ -86,6 +86,8 @@
 		BF8942E4270FAABD0076E45B /* MacSwiftCoinUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSwiftCoinUnitTests.swift; sourceTree = "<group>"; };
 		BF8942FC270FAB240076E45B /* SwiftCoinTestsIOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCoinTestsIOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8942FE270FAB240076E45B /* SwiftCoinTestsIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinTestsIOS.swift; sourceTree = "<group>"; };
+		BF894305270FAE3A0076E45B /* ipadCoin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadCoin.jpg; sourceTree = "<group>"; };
+		BF894306270FAE3A0076E45B /* macCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macCoin.png; sourceTree = "<group>"; };
 		BFD58831270AD731003D8FC7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D26B2BC927092698008822B8 /* SwiftCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinApp.swift; sourceTree = "<group>"; };
 		D26B2BCA27092698008822B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,8 @@
 		D26B2BC827092698008822B8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BF894305270FAE3A0076E45B /* ipadCoin.jpg */,
+				BF894306270FAE3A0076E45B /* macCoin.png */,
 				D26B2BC927092698008822B8 /* SwiftCoinApp.swift */,
 				D26B2BCA27092698008822B8 /* ContentView.swift */,
 				BF8942AB270BE8050076E45B /* World.swift */,
