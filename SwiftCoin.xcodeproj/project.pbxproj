@@ -11,8 +11,8 @@
 		BF8942AD270BE8050076E45B /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942AB270BE8050076E45B /* World.swift */; };
 		BF8942B3270D259E0076E45B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B2270D259D0076E45B /* Block.swift */; };
 		BF8942B4270D259E0076E45B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B2270D259D0076E45B /* Block.swift */; };
-		BF8942B9270F91F00076E45B /* BlockChainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B8270F91F00076E45B /* BlockChainNode.swift */; };
-		BF8942BA270F91F00076E45B /* BlockChainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B8270F91F00076E45B /* BlockChainNode.swift */; };
+		BF8942B9270F91F00076E45B /* BlockchainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B8270F91F00076E45B /* BlockchainNode.swift */; };
+		BF8942BA270F91F00076E45B /* BlockchainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B8270F91F00076E45B /* BlockchainNode.swift */; };
 		BF8942BC270F92400076E45B /* MemoryPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BB270F92400076E45B /* MemoryPool.swift */; };
 		BF8942BD270F92400076E45B /* MemoryPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BB270F92400076E45B /* MemoryPool.swift */; };
 		BF8942BF270F925C0076E45B /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BE270F925C0076E45B /* Transactions.swift */; };
@@ -81,7 +81,7 @@
 /* Begin PBXFileReference section */
 		BF8942AB270BE8050076E45B /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 		BF8942B2270D259D0076E45B /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		BF8942B8270F91F00076E45B /* BlockChainNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChainNode.swift; sourceTree = "<group>"; };
+		BF8942B8270F91F00076E45B /* BlockchainNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainNode.swift; sourceTree = "<group>"; };
 		BF8942BB270F92400076E45B /* MemoryPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPool.swift; sourceTree = "<group>"; };
 		BF8942BE270F925C0076E45B /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
 		BFD58831270AD731003D8FC7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				BF8942B2270D259D0076E45B /* Block.swift */,
-				BF8942B8270F91F00076E45B /* BlockChainNode.swift */,
+				BF8942B8270F91F00076E45B /* BlockchainNode.swift */,
 				BF8942BB270F92400076E45B /* MemoryPool.swift */,
 				BF8942BE270F925C0076E45B /* Transactions.swift */,
 			);
@@ -406,7 +406,7 @@
 				D26B2C33270960E0008822B8 /* UInt256+BinaryInteger.swift in Sources */,
 				D26B2C21270960E0008822B8 /* UInt256+Comparable.swift in Sources */,
 				D26B2C31270960E0008822B8 /* UInt256+Divide&Conquer.swift in Sources */,
-				BF8942B9270F91F00076E45B /* BlockChainNode.swift in Sources */,
+				BF8942B9270F91F00076E45B /* BlockchainNode.swift in Sources */,
 				D26B2BF32709269B008822B8 /* ContentView.swift in Sources */,
 				D26B2C2B270960E0008822B8 /* FixedWidthInteger+BarrettDivision.swift in Sources */,
 				BFD58832270AD731003D8FC7 /* Extensions.swift in Sources */,
@@ -436,7 +436,7 @@
 				D26B2C34270960E0008822B8 /* UInt256+BinaryInteger.swift in Sources */,
 				D26B2C22270960E0008822B8 /* UInt256+Comparable.swift in Sources */,
 				D26B2C32270960E0008822B8 /* UInt256+Divide&Conquer.swift in Sources */,
-				BF8942BA270F91F00076E45B /* BlockChainNode.swift in Sources */,
+				BF8942BA270F91F00076E45B /* BlockchainNode.swift in Sources */,
 				D26B2BF42709269B008822B8 /* ContentView.swift in Sources */,
 				D26B2C2C270960E0008822B8 /* FixedWidthInteger+BarrettDivision.swift in Sources */,
 				BFD58833270AD731003D8FC7 /* Extensions.swift in Sources */,
