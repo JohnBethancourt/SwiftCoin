@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		BF8942AC270BE8050076E45B /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942AB270BE8050076E45B /* World.swift */; };
 		BF8942AD270BE8050076E45B /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942AB270BE8050076E45B /* World.swift */; };
-		BF8942AF270BE8860076E45B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942AE270BE8860076E45B /* Date+Ext.swift */; };
-		BF8942B0270BE8860076E45B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942AE270BE8860076E45B /* Date+Ext.swift */; };
 		BF8942B3270D259E0076E45B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B2270D259D0076E45B /* Block.swift */; };
 		BF8942B4270D259E0076E45B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B2270D259D0076E45B /* Block.swift */; };
-		BFD58832270AD731003D8FC7 /* DataPropertyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58831270AD731003D8FC7 /* DataPropertyExtensions.swift */; };
-		BFD58833270AD731003D8FC7 /* DataPropertyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58831270AD731003D8FC7 /* DataPropertyExtensions.swift */; };
-		BFD58835270AD774003D8FC7 /* SHA256Digest+UInt256.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58834270AD774003D8FC7 /* SHA256Digest+UInt256.swift */; };
-		BFD58836270AD774003D8FC7 /* SHA256Digest+UInt256.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58834270AD774003D8FC7 /* SHA256Digest+UInt256.swift */; };
+		BF8942B9270F91F00076E45B /* BlockChainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B8270F91F00076E45B /* BlockChainNode.swift */; };
+		BF8942BA270F91F00076E45B /* BlockChainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942B8270F91F00076E45B /* BlockChainNode.swift */; };
+		BF8942BC270F92400076E45B /* MemoryPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BB270F92400076E45B /* MemoryPool.swift */; };
+		BF8942BD270F92400076E45B /* MemoryPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BB270F92400076E45B /* MemoryPool.swift */; };
+		BF8942BF270F925C0076E45B /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BE270F925C0076E45B /* Transactions.swift */; };
+		BF8942C0270F925C0076E45B /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8942BE270F925C0076E45B /* Transactions.swift */; };
+		BFD58832270AD731003D8FC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58831270AD731003D8FC7 /* Extensions.swift */; };
+		BFD58833270AD731003D8FC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD58831270AD731003D8FC7 /* Extensions.swift */; };
 		D26B2BE22709269B008822B8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BE12709269B008822B8 /* Tests_iOS.swift */; };
 		D26B2BE42709269B008822B8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BE32709269B008822B8 /* Tests_iOSLaunchTests.swift */; };
 		D26B2BEE2709269B008822B8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B2BED2709269B008822B8 /* Tests_macOS.swift */; };
@@ -78,10 +80,11 @@
 
 /* Begin PBXFileReference section */
 		BF8942AB270BE8050076E45B /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
-		BF8942AE270BE8860076E45B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		BF8942B2270D259D0076E45B /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		BFD58831270AD731003D8FC7 /* DataPropertyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPropertyExtensions.swift; sourceTree = "<group>"; };
-		BFD58834270AD774003D8FC7 /* SHA256Digest+UInt256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SHA256Digest+UInt256.swift"; sourceTree = "<group>"; };
+		BF8942B8270F91F00076E45B /* BlockChainNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChainNode.swift; sourceTree = "<group>"; };
+		BF8942BB270F92400076E45B /* MemoryPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPool.swift; sourceTree = "<group>"; };
+		BF8942BE270F925C0076E45B /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		BFD58831270AD731003D8FC7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D26B2BC927092698008822B8 /* SwiftCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinApp.swift; sourceTree = "<group>"; };
 		D26B2BCA27092698008822B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D26B2BCB2709269B008822B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,6 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				BF8942B2270D259D0076E45B /* Block.swift */,
+				BF8942B8270F91F00076E45B /* BlockChainNode.swift */,
+				BF8942BB270F92400076E45B /* MemoryPool.swift */,
+				BF8942BE270F925C0076E45B /* Transactions.swift */,
 			);
 			path = Blockchain;
 			sourceTree = "<group>";
@@ -166,15 +172,13 @@
 		D26B2BC827092698008822B8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				BF8942B1270D25800076E45B /* Blockchain */,
-				BFD58831270AD731003D8FC7 /* DataPropertyExtensions.swift */,
-				BFD58834270AD774003D8FC7 /* SHA256Digest+UInt256.swift */,
-				D26B2C0527096039008822B8 /* UInt256 */,
 				D26B2BC927092698008822B8 /* SwiftCoinApp.swift */,
 				D26B2BCA27092698008822B8 /* ContentView.swift */,
-				D26B2BCB2709269B008822B8 /* Assets.xcassets */,
 				BF8942AB270BE8050076E45B /* World.swift */,
-				BF8942AE270BE8860076E45B /* Date+Ext.swift */,
+				BFD58831270AD731003D8FC7 /* Extensions.swift */,
+				BF8942B1270D25800076E45B /* Blockchain */,
+				D26B2C0527096039008822B8 /* UInt256 */,
+				D26B2BCB2709269B008822B8 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -402,22 +406,23 @@
 				D26B2C33270960E0008822B8 /* UInt256+BinaryInteger.swift in Sources */,
 				D26B2C21270960E0008822B8 /* UInt256+Comparable.swift in Sources */,
 				D26B2C31270960E0008822B8 /* UInt256+Divide&Conquer.swift in Sources */,
+				BF8942B9270F91F00076E45B /* BlockChainNode.swift in Sources */,
 				D26B2BF32709269B008822B8 /* ContentView.swift in Sources */,
 				D26B2C2B270960E0008822B8 /* FixedWidthInteger+BarrettDivision.swift in Sources */,
-				BFD58832270AD731003D8FC7 /* DataPropertyExtensions.swift in Sources */,
+				BFD58832270AD731003D8FC7 /* Extensions.swift in Sources */,
 				D26B2C35270960E0008822B8 /* UInt256+Numeric.swift in Sources */,
+				BF8942BF270F925C0076E45B /* Transactions.swift in Sources */,
 				D26B2C1D270960E0008822B8 /* UInt256+ExpressibleByIntegerLiteral.swift in Sources */,
 				D26B2C27270960E0008822B8 /* UInt256+CustomStringConvertible.swift in Sources */,
 				D26B2C25270960E0008822B8 /* UInt256+Karatsuba.swift in Sources */,
 				D26B2C19270960E0008822B8 /* UInt256+arc4random.swift in Sources */,
-				BF8942AF270BE8860076E45B /* Date+Ext.swift in Sources */,
-				BFD58835270AD774003D8FC7 /* SHA256Digest+UInt256.swift in Sources */,
 				D26B2BF12709269B008822B8 /* SwiftCoinApp.swift in Sources */,
 				BF8942AC270BE8050076E45B /* World.swift in Sources */,
 				D26B2C23270960E0008822B8 /* UInt256+Equatable.swift in Sources */,
 				D26B2C29270960E0008822B8 /* UInt256+Hashable.swift in Sources */,
 				D26B2C1B270960E0008822B8 /* UInt256.swift in Sources */,
 				D26B2C1F270960E0008822B8 /* UInt256+UnsignedInteger.swift in Sources */,
+				BF8942BC270F92400076E45B /* MemoryPool.swift in Sources */,
 				D26B2C2F270960E0008822B8 /* FixedWidthInteger+LongDivision.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,22 +436,23 @@
 				D26B2C34270960E0008822B8 /* UInt256+BinaryInteger.swift in Sources */,
 				D26B2C22270960E0008822B8 /* UInt256+Comparable.swift in Sources */,
 				D26B2C32270960E0008822B8 /* UInt256+Divide&Conquer.swift in Sources */,
+				BF8942BA270F91F00076E45B /* BlockChainNode.swift in Sources */,
 				D26B2BF42709269B008822B8 /* ContentView.swift in Sources */,
 				D26B2C2C270960E0008822B8 /* FixedWidthInteger+BarrettDivision.swift in Sources */,
-				BFD58833270AD731003D8FC7 /* DataPropertyExtensions.swift in Sources */,
+				BFD58833270AD731003D8FC7 /* Extensions.swift in Sources */,
 				D26B2C36270960E0008822B8 /* UInt256+Numeric.swift in Sources */,
+				BF8942C0270F925C0076E45B /* Transactions.swift in Sources */,
 				D26B2C1E270960E0008822B8 /* UInt256+ExpressibleByIntegerLiteral.swift in Sources */,
 				D26B2C28270960E0008822B8 /* UInt256+CustomStringConvertible.swift in Sources */,
 				D26B2C26270960E0008822B8 /* UInt256+Karatsuba.swift in Sources */,
 				D26B2C1A270960E0008822B8 /* UInt256+arc4random.swift in Sources */,
-				BF8942B0270BE8860076E45B /* Date+Ext.swift in Sources */,
-				BFD58836270AD774003D8FC7 /* SHA256Digest+UInt256.swift in Sources */,
 				D26B2BF22709269B008822B8 /* SwiftCoinApp.swift in Sources */,
 				BF8942AD270BE8050076E45B /* World.swift in Sources */,
 				D26B2C24270960E0008822B8 /* UInt256+Equatable.swift in Sources */,
 				D26B2C2A270960E0008822B8 /* UInt256+Hashable.swift in Sources */,
 				D26B2C1C270960E0008822B8 /* UInt256.swift in Sources */,
 				D26B2C20270960E0008822B8 /* UInt256+UnsignedInteger.swift in Sources */,
+				BF8942BD270F92400076E45B /* MemoryPool.swift in Sources */,
 				D26B2C30270960E0008822B8 /* FixedWidthInteger+LongDivision.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

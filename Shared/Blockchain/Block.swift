@@ -8,6 +8,7 @@
 import Foundation
 
 class Block {
+    var minedBy: UUID = UUID()
     var index: UInt64 = 0
     var previousHash: UInt256 = UInt256.init([0,0,0,0])
     var hash: UInt256 = UInt256.init([0,0,0,0])
